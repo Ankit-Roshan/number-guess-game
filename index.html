@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Number Game</title>
+</head>
+
+<body>
+    <div class="wrapper">
+<div class="kala">
+    <div class="kalaBtn">Dark</div>
+</div>
+
+
+        <h1>Number Guessing Game</h1>
+        <p>Try and Guess a random Number between 1 and 10</p>
+        <p>You have 3 attempts to guess the right number.</p>
+        <br>
+        <form class="form">
+            <label for="guessField" id="guess">Guess a Number</label><br>
+            <input type="number" id="guessField" class="guessField"> <button class="clear">X</button><br>
+            <input type="submit" id="subt" value="Submit Guess" class="guessSubmit">
+        </form>
+        <div class="resultParas">
+            <p>Previous Guess : <span class="guesses"></span></p>
+            <p>Guesses Remaining : <span class="lastResult"></span></p>
+            <p class="lowOrHi"></p>
+            <div class="restartWala">
+                <p class="restart">Restart</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js "></script>
+</body>
+
+</html>
